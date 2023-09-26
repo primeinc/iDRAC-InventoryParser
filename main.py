@@ -146,7 +146,7 @@ def generate_consolidated_md_table(hardware_info, type='all'):
     service_tag = system_info.get('ServiceTag', 'Unknown')
 
     # Initialize Markdown table
-    md_table = [f"### {model} - {service_tag}", "| Count | Info |", "| :-- | :--: |"]
+    md_table = [f"### {model} - {service_tag}", "| Info | Count |", "| :-- | :--: |"]
 
     if type == 'unique':
         # Handle unique hardware information

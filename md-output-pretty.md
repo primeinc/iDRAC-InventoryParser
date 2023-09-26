@@ -1,5 +1,5 @@
 ### PowerEdge R720 - 9RS8XV1
-| Count | Info |
+| Info | Count |
 | :-- | :--: |
 | PERC H710 Mini | 1 |
 | DDR3 DIMM - HMT31GR7CFR4C-PB - 1600 MHz - 8192 MB | 8 |
