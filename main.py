@@ -151,6 +151,9 @@ def generate_consolidated_md_table(hardware_info, type='all'):
     if type == 'unique':
         # Handle unique hardware information
         for component, unique_components in hardware_info.items():
+            if component == 'DCIM_SystemView':
+                # We've already used this for the table title, so skip
+                continue
             for comparison_tuple, count in unique_components.items():
                 comparison_dict = dict(comparison_tuple)
                 info_str = generate_info_string(component, comparison_dict)

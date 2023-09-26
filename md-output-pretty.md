@@ -3,7 +3,6 @@
 | :-- | :--: |
 | PERC H710 Mini | 1 |
 | DDR3 DIMM - HMT31GR7CFR4C-PB - 1600 MHz - 8192 MB | 8 |
-|  | 1 |
 | Intel(R) Gigabit 4P I350-t rNDC | 4 |
 | PWR SPLY,750WP,RDNT,DELTA | 2 |
 | HDD - ST9146853SS - 136.125 GB | 2 |
