@@ -1,0 +1,44 @@
+Component: DCIM_ControllerView
+  Count: 1
+    ProductName = PERC H710 Mini
+Component: DCIM_MemoryView
+  Count: 8
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    Size = 8192 MB
+    Speed = 1600 MHz
+Component: DCIM_SystemView
+  Count: 1
+    Model = PowerEdge R720
+    ServiceTag = 9RS8XV1
+Component: DCIM_NICView
+  Count: 4
+    ProductName = Intel(R) Gigabit 4P I350-t rNDC
+Component: DCIM_PowerSupplyView
+  Count: 2
+    Model = PWR SPLY,750WP,RDNT,DELTA     
+Component: DCIM_PhysicalDiskView
+  Count: 2
+    MediaType = HDD
+    Model = ST9146853SS
+    SizeInGigabytes = 136.125 GB
+  Count: 2
+    MediaType = Solid State Drive
+    Model = OCZ VERTEX4
+    SizeInGigabytes = 476.375 GB
+  Count: 4
+    MediaType = HDD
+    Model = HGST HTS721010A9
+    SizeInGigabytes = 931.0 GB
+  Count: 2
+    MediaType = Solid State Drive
+    Model = M4 CT512M4SSD2
+    SizeInGigabytes = 476.375 GB
+Component: DCIM_EnclosureView
+  Count: 1
+    ProductName = BP12G+EXP 0:1
+Component: DCIM_CPUView
+  Count: 2
+    Model = Intel(R) Xeon(R) CPU E5-2643 0 @ 3.30GHz
+
+

@@ -1,0 +1,326 @@
+Component: DCIM_ControllerView
+  RAID.Integrated.1-1
+    CacheSizeInMB = 512 MB
+    SASAddress = 5848F690E5826300
+    ProductName = PERC H710 Mini
+    DeviceDescription = Integrated RAID Controller 1
+Component: DCIM_MemoryView
+  DIMM.Socket.A1
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 4470B03F
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+  DIMM.Socket.A2
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 4480B051
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+  DIMM.Socket.A3
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 4490B052
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+  DIMM.Socket.A4
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 4410B053
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+  DIMM.Socket.B1
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 4430B04D
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+  DIMM.Socket.B2
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 4470B04B
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+  DIMM.Socket.B3
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 4450B042
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+  DIMM.Socket.B4
+    Rank = Double Rank
+    Model = DDR3 DIMM
+    PartNumber = HMT31GR7CFR4C-PB
+    SerialNumber = 44C0B04F
+    Manufacturer = Hynix Semiconductor
+    Size = 8192 MB
+    Speed = 1600 MHz
+Component: DCIM_SystemView
+  System.Embedded.1
+    BoardPartNumber = 0VWT90A02
+    BoardSerialNumber = CN701632A70065
+    AssetTag = None
+    HostName = hypv01
+    BIOSReleaseDate = 01/22/2016
+    BIOSVersionString = 2.5.4
+    ChassisServiceTag = 9RS8XV1
+    ExpressServiceCode = 21271074157
+    ServiceTag = 9RS8XV1
+    Manufacturer = Dell Inc.
+    Model = PowerEdge R720
+    LifecycleControllerVersion = 2.63.60.62
+    SystemGeneration = 12G Monolithic
+Component: DCIM_NICView
+  NIC.Integrated.1-1-1
+    Protocol = NIC
+    MediaType = Base T
+    VendorName = Intel Corp
+    PermanentMACAddress = BC:30:5B:F2:C1:10
+    CurrentMACAddress = BC:30:5B:F2:C1:10
+    ProductName = Intel(R) Gigabit 4P I350-t rNDC - BC:30:5B:F2:C1:10
+    DeviceDescription = Integrated NIC 1 Port 1 Partition 1
+  NIC.Integrated.1-2-1
+    Protocol = NIC
+    MediaType = Base T
+    VendorName = Intel Corp
+    PermanentMACAddress = BC:30:5B:F2:C1:11
+    CurrentMACAddress = BC:30:5B:F2:C1:11
+    ProductName = Intel(R) Gigabit 4P I350-t rNDC - BC:30:5B:F2:C1:11
+    DeviceDescription = Integrated NIC 1 Port 2 Partition 1
+  NIC.Integrated.1-3-1
+    Protocol = NIC
+    MediaType = Base T
+    VendorName = Intel Corp
+    PermanentMACAddress = BC:30:5B:F2:C1:12
+    CurrentMACAddress = BC:30:5B:F2:C1:12
+    ProductName = Intel(R) Gigabit 4P I350-t rNDC - BC:30:5B:F2:C1:12
+    DeviceDescription = Integrated NIC 1 Port 3 Partition 1
+  NIC.Integrated.1-4-1
+    Protocol = NIC
+    MediaType = Base T
+    VendorName = Intel Corp
+    PermanentMACAddress = BC:30:5B:F2:C1:13
+    CurrentMACAddress = BC:30:5B:F2:C1:13
+    ProductName = Intel(R) Gigabit 4P I350-t rNDC - BC:30:5B:F2:C1:13
+    DeviceDescription = Integrated NIC 1 Port 4 Partition 1
+Component: DCIM_PowerSupplyView
+  PSU.Slot.1
+    TotalOutputPower = 750 Watts
+    Manufacturer = Dell
+    PartNumber = 05NF18A00
+    SerialNumber = CN1797229A6VWV
+    Model = PWR SPLY,750WP,RDNT,DELTA     
+    DeviceDescription = Power Supply 1
+  PSU.Slot.2
+    TotalOutputPower = 750 Watts
+    Manufacturer = Dell
+    PartNumber = 05NF18A00
+    SerialNumber = CN1797229A6VWX
+    Model = PWR SPLY,750WP,RDNT,DELTA     
+    DeviceDescription = Power Supply 2
+Component: DCIM_PhysicalDiskView
+  Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = HDD
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SAS
+    SerialNumber = 6XM1AKCH
+    Revision = YS09
+    Model = ST9146853SS
+    SizeInBytes = 146163105792 Bytes
+    SizeInGigabytes = 136.125 GB
+    Slot = 0
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 0 in Backplane 1 of Integrated RAID Controller 1
+  Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = HDD
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SAS
+    SerialNumber = 6XM1AJBD
+    Revision = YS09
+    Model = ST9146853SS
+    SizeInBytes = 146163105792 Bytes
+    SizeInGigabytes = 136.125 GB
+    Slot = 1
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 1 in Backplane 1 of Integrated RAID Controller 1
+  Disk.Bay.14:Enclosure.Internal.0-1:RAID.Integrated.1-1
+    DriveFormFactor = Unknown
+    MaxCapableSpeed = 6Gbs
+    MediaType = Solid State Drive
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = OCZ 7ZSH2E54WU649QW6
+    Revision = 1.5
+    Model = OCZ VERTEX4
+    SizeInBytes = 511503761408 Bytes
+    SizeInGigabytes = 476.375 GB
+    Slot = 14
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 14 in Backplane 1 of Integrated RAID Controller 1
+  Disk.Bay.15:Enclosure.Internal.0-1:RAID.Integrated.1-1
+    DriveFormFactor = Unknown
+    MaxCapableSpeed = 6Gbs
+    MediaType = Solid State Drive
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = OCZ OO0F229OB1YU4E98
+    Revision = 1.5
+    Model = OCZ VERTEX4
+    SizeInBytes = 511503761408 Bytes
+    SizeInGigabytes = 476.375 GB
+    Slot = 15
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 15 in Backplane 1 of Integrated RAID Controller 1
+  Disk.Direct.2:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = HDD
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = JG40006PG5Y4XC
+    Revision = JB0OA3B0
+    Model = HGST HTS721010A9
+    SizeInBytes = 999653638144 Bytes
+    SizeInGigabytes = 931.0 GB
+    Slot = 2
+    Connector = 0
+    RaidStatus = Failed
+    DeviceDescription = Disk 2 on Integrated RAID Controller 1
+  Disk.Direct.3:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = HDD
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = JG40006PG563VC
+    Revision = JB0OA3B0
+    Model = HGST HTS721010A9
+    SizeInBytes = 999653638144 Bytes
+    SizeInGigabytes = 931.0 GB
+    Slot = 3
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 3 on Integrated RAID Controller 1
+  Disk.Direct.4:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = HDD
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = JG40006PG63JXC
+    Revision = JB0OA3B0
+    Model = HGST HTS721010A9
+    SizeInBytes = 999653638144 Bytes
+    SizeInGigabytes = 931.0 GB
+    Slot = 4
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 4 on Integrated RAID Controller 1
+  Disk.Direct.5:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = HDD
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = JG40006PG633YC
+    Revision = JB0OA3B0
+    Model = HGST HTS721010A9
+    SizeInBytes = 999653638144 Bytes
+    SizeInGigabytes = 931.0 GB
+    Slot = 5
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 5 on Integrated RAID Controller 1
+  Disk.Direct.12:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = Solid State Drive
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = 000000001302092549CA
+    Revision = 070H
+    Model = M4 CT512M4SSD2
+    SizeInBytes = 511503761408 Bytes
+    SizeInGigabytes = 476.375 GB
+    Slot = 12
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 12 on Integrated RAID Controller 1
+  Disk.Direct.13:RAID.Integrated.1-1
+    DriveFormFactor = 2.5 inch
+    MaxCapableSpeed = 6Gbs
+    MediaType = Solid State Drive
+    BlockSizeInBytes = 512 Bytes
+    BusProtocol = SATA
+    SerialNumber = 000000001302092549D3
+    Revision = 070H
+    Model = M4 CT512M4SSD2
+    SizeInBytes = 511503761408 Bytes
+    SizeInGigabytes = 476.375 GB
+    Slot = 13
+    Connector = 0
+    RaidStatus = Online
+    DeviceDescription = Disk 13 on Integrated RAID Controller 1
+Component: DCIM_EnclosureView
+  Enclosure.Internal.0-1:RAID.Integrated.1-1
+    ProductName = BP12G+EXP 0:1
+    SlotCount = 16
+    Version = 1.03
+    DeviceDescription = Backplane 1 on Connector 0 of Integrated RAID Controller 1
+Component: DCIM_CPUView
+  CPU.Socket.1
+    Cache3Size = 10240 KB
+    Cache2Size = 1024 KB
+    Cache1Size = 128 KB
+    Model = Intel(R) Xeon(R) CPU E5-2643 0 @ 3.30GHz
+    Manufacturer = Intel
+    TurboModeCapable = Yes
+    VirtualizationTechnologyCapable = Yes
+    HyperThreadingCapable = Yes
+    Characteristics = 64-bit Capable
+    NumberOfProcessorCores = 4
+    NumberOfEnabledThreads = 8
+    NumberOfEnabledCores = 4
+    MaxClockSpeed = 3600 MHz
+    CPUFamily = Intel(R) Xeon(TM)
+    DeviceDescription = CPU 1
+  CPU.Socket.2
+    Cache3Size = 10240 KB
+    Cache2Size = 1024 KB
+    Cache1Size = 128 KB
+    Model = Intel(R) Xeon(R) CPU E5-2643 0 @ 3.30GHz
+    Manufacturer = Intel
+    TurboModeCapable = Yes
+    VirtualizationTechnologyCapable = Yes
+    HyperThreadingCapable = Yes
+    Characteristics = 64-bit Capable
+    NumberOfProcessorCores = 4
+    NumberOfEnabledThreads = 8
+    NumberOfEnabledCores = 4
+    MaxClockSpeed = 3600 MHz
+    CPUFamily = Intel(R) Xeon(TM)
+    DeviceDescription = CPU 2
+
+
